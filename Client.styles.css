@@ -273,6 +273,7 @@ section[b-xb0d964219] {
 /* /Components/Icons/Burger.razor.rz.scp.css */
 /* /Components/Icons/CheckMark.razor.rz.scp.css */
 /* /Components/Icons/LogoCircle.razor.rz.scp.css */
+/* /Components/NotFoundRedirect.razor.rz.scp.css */
 /* /Layout/BaseLayout.razor.rz.scp.css */
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-tmopy668it] {
@@ -436,7 +437,6 @@ main[b-tmopy668it] {
         overflow-y: auto;
     }
 }
-/* /Pages/404.razor.rz.scp.css */
 /* /Pages/About.razor.rz.scp.css */
 /* /Pages/ConfigViewer.razor.rz.scp.css */
 /* /Pages/Consulting.razor.rz.scp.css */
@@ -1202,3 +1202,4 @@ section[b-mlpx6l4j4s] {
 .section-impressum[b-mlpx6l4j4s] {
   height: 200px;
 }
+/* /Pages/NotFoundPage.razor.rz.scp.css */
