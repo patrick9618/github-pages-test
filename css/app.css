@@ -165,16 +165,16 @@ code {
   src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
-.banana {
-  color: #42d930;
-}
-
 p, hr {
   margin: 0;
 }
 
 h1, h2, h3, h4 {
   margin: 0;
+}
+
+.align-center {
+  text-align: center;
 }
 
 img {

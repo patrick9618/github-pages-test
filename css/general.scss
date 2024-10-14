@@ -1,9 +1,5 @@
 @import "./responsive.scss";
 
-.banana {
-    color: #42d930;
-} 
-
 @mixin font-abhaya-libre-400 {
     font-family: "Abhaya Libre", serif;
     font-weight: 400;
@@ -94,6 +90,10 @@ p, hr {
 
 h1, h2, h3, h4 {
     margin: 0;
+}
+
+.align-center {
+	text-align: center;
 }
 
 img {
