@@ -3797,7 +3797,7 @@ section[b-c2pjpopm40] {
 }
 
 section.bg-image .inner[b-c2pjpopm40] {
-  background-image: url("/images/dalle_generated_image.png");
+  background-image: url("images/dalle_generated_image.png");
   background-position: 0 -202.975px;
   background-size: 100% 207.394%;
   background-repeat: repeat-x;
