@@ -50,8 +50,9 @@
 
 // TODO: get rid of bootstrap
 
-$use-gutter: false;
-$gutter-color: #bbbbbb;
+$use-gutter: true;
+//$gutter-color: #bbbbbb;
+$gutter-color: #eaeaea;
 
 @mixin page-outer {
     display: flex;
@@ -84,6 +85,22 @@ $gutter-color: #bbbbbb;
     }
 }
 
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+hr {
+    color: inherit;
+    background-color: currentColor;
+    border: 0;
+    opacity: .25;
+}
+
 p, hr {
     margin: 0;
 }
@@ -100,8 +117,21 @@ img {
     border-radius: 4px;
 }
 
+// get rid of
 .card {
     border-radius: 4px;
+}
+
+.link-secondary {
+	text-decoration: underline;
+	color: var(--color-heading);
+	@include font-montserrat-500;
+	font-size: 19.2px;
+
+	&:hover {
+		color: #233727;
+		font-weight: 700;
+	}
 }
 
 section {
@@ -182,29 +212,6 @@ section {
     @include font-montserrat-400;
 }
 
-.button-primary {
-    padding: 16px 24px;
-    width: fit-content;
-    text-align: center;
-    @include font-montserrat-500;
-    color: var(--color-btn-text-primary);
-    border-radius: 29px;
-    border: none;
-    background: var(--color-btn-bg-primary);
-}
-
-.button-secondary {
-    padding: 16px 24px; // inconsinstent
-    width: fit-content;
-    text-align: center;
-    @include font-montserrat-600;
-    background: var(--color-btn-bg-secondary);
-    color: var(--color-btn-text-secondary);
-    border-radius: 25px;
-    border: 1.5px solid var(--color-btn-border-secondary);
-    letter-spacing: 0.32px;
-}
-
 .outer {
     @include page-outer;
 }
@@ -242,7 +249,6 @@ section {
 
         p {
             margin-bottom: 24px;
-
             &:last-of-type {
                 margin-bottom: 0;
             }
@@ -287,4 +293,41 @@ section {
     @media #{$media-mobile} {
         margin: 64px 0;
     }
+}
+
+.font-size-ml {
+	font-size: 19.2px; // TODO
+}
+
+.flex {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-16 {
+    gap: 16px;
+}
+
+.gap-24 {
+    gap: 24px;
+}
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-48 {
+    gap: 48px;
+}
+
+.nowrap {
+	white-space:nowrap;
 }

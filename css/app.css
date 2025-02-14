@@ -105,7 +105,7 @@ code {
   --my-color: black;
   --color-bg-white: white;
   --color-bg-green: #c0c4bb;
-  --color-bg-blue: #F2F1EF;
+  --color-bg-blue: #EBE4DE;
   --color-btn-bg-primary: #828A78;
   --color-btn-bg-secondary: white;
   --color-btn-border-primary: #0A210F;
@@ -165,6 +165,22 @@ code {
   src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+*, ::after, ::before {
+  box-sizing: border-box;
+}
+
+hr {
+  color: inherit;
+  background-color: currentColor;
+  border: 0;
+  opacity: 0.25;
+}
+
 p, hr {
   margin: 0;
 }
@@ -185,11 +201,26 @@ img {
   border-radius: 4px;
 }
 
-section {
-  background-color: #bbbbbb;
+.link-secondary {
+  text-decoration: underline;
+  color: var(--color-heading);
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 19.2px;
+}
+.link-secondary:hover {
+  color: #233727;
+  font-weight: 700;
 }
 
-.bg-white-custom {
+section {
+  background-color: #eaeaea;
+}
+
+.bg-white-custom .inner, .bg-white-custom .outer {
   background-color: var(--color-bg-white);
 }
 .bg-white-custom .heading {
@@ -199,7 +230,7 @@ section {
   color: var(--color-text);
 }
 
-.bg-blue {
+.bg-blue .inner, .bg-blue .outer {
   background-color: var(--color-bg-blue);
 }
 .bg-blue .heading {
@@ -209,7 +240,7 @@ section {
   color: var(--color-text);
 }
 
-.bg-green {
+.bg-green .inner, .bg-green .outer {
   background-color: var(--color-bg-green);
 }
 .bg-green .heading {
@@ -241,37 +272,6 @@ section {
   font-style: normal;
   line-height: normal;
   font-weight: 400;
-}
-
-.button-primary {
-  padding: 16px 24px;
-  width: fit-content;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  line-height: normal;
-  font-weight: 500;
-  color: var(--color-btn-text-primary);
-  border-radius: 29px;
-  border: none;
-  background: var(--color-btn-bg-primary);
-}
-
-.button-secondary {
-  padding: 16px 24px;
-  width: fit-content;
-  text-align: center;
-  font-family: "Montserrat", sans-serif;
-  font-size: 16px;
-  font-style: normal;
-  line-height: normal;
-  font-weight: 600;
-  background: var(--color-btn-bg-secondary);
-  color: var(--color-btn-text-secondary);
-  border-radius: 25px;
-  border: 1.5px solid var(--color-btn-border-secondary);
-  letter-spacing: 0.32px;
 }
 
 .outer {
@@ -364,4 +364,41 @@ section {
   .flex-text-image {
     margin: 64px 0;
   }
+}
+
+.font-size-ml {
+  font-size: 19.2px;
+}
+
+.flex {
+  display: flex;
+  align-items: flex-start;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+
+.gap-16 {
+  gap: 16px;
+}
+
+.gap-24 {
+  gap: 24px;
+}
+
+.gap-32 {
+  gap: 32px;
+}
+
+.gap-48 {
+  gap: 48px;
+}
+
+.nowrap {
+  white-space: nowrap;
 }
