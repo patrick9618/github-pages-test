@@ -1,30 +1,55 @@
+
+
+// Light theme by default
 :root {
-  --my-color: black;
-  --color-bg-white: white;
-  --color-bg-green: #c0c4bb;
-  --color-bg-blue: #EBE4DE;
-  --color-btn-bg-primary: #828A78;
-  --color-btn-bg-secondary: white;
-  --color-btn-border-primary: #0A210F;
-  --color-btn-border-secondary: #0A210F;
-  --color-btn-text-primary: white;
-  --color-btn-text-secondary: #0A210F;
-  --color-border: #0A210F;
-  --color-heading: #0A210F;
-  --color-text: #333333;
-  --color-text-light: white;
-  --color-text-2: black;
-  --color-header-text: #191919;
-  --color-logo-name: #272727;
-  --color-logo-subtitle: #403A1A;
-  --color-logo-dots: #746B30;
-  --color-logo-vertical-line: #828A78;
-  --color-logo-horizontal-line: #232323;
-  --color-bg-heading: #C1C5BC ;
+
+	$primary-color: #3498db;
+	$secondary-color: #2ecc71;
+	$background-color: #ffffff;
+	$text-color: #333333;
+
+	$theme-color-white: white;
+	//$theme-color-seashell: #F2F1EF; // light grey section bg
+	$theme-color-seashell: #EBE4DE; // light grey section bg
+	$theme-color-spruce-shadow: #c0c4bb; // dark grey section bg
+	$theme-color-palm-green: #0A210F; // button-secondary: text, section headings / headings
+	$theme-color-black: black; // section: text
+	$theme-color-baltic-sea: #272727; // logo: Name
+	$theme-color-thatch-green: #403A1A; // logo: sub title
+	$theme-color-yellow-metal: #746B30; // logo: small dot
+	$theme-color-sage-green: #828A78; // logo: vertical lines, button primary
+	$theme-color-dark-jungle-green: #232323; // logo: horizontal lines
+	$theme-color-thamar-black: #191919; // header: text
+	$theme-color-dune: #333333; // section: text [sometimes black sometimes thise]
+	$theme-color-grey-nickel: #C1C5BC;
+
+	--my-color: black;
+	--color-bg-white: #{$theme-color-white};
+	--color-bg-green: #{$theme-color-spruce-shadow};
+	--color-bg-blue: #{$theme-color-seashell};
+	--color-btn-bg-primary: #{$theme-color-sage-green};
+	--color-btn-bg-secondary: #{$theme-color-white};
+	--color-btn-border-primary: #{$theme-color-palm-green};
+	--color-btn-border-secondary: #{$theme-color-palm-green};
+	--color-btn-text-primary: #{$theme-color-white};
+	--color-btn-text-secondary: #{$theme-color-palm-green};
+	--color-border: #{$theme-color-palm-green};
+	--color-heading: #{$theme-color-palm-green};
+	--color-text: #{$theme-color-dune};
+	--color-text-light: white;
+	--color-text-2: #{$theme-color-black};
+	--color-header-text: #{$theme-color-thamar-black};
+	--color-logo-name: #{$theme-color-baltic-sea};
+	--color-logo-subtitle: #{$theme-color-thatch-green};
+	--color-logo-dots: #{$theme-color-yellow-metal};
+	--color-logo-vertical-line: #{$theme-color-sage-green};
+	--color-logo-horizontal-line: #{$theme-color-dark-jungle-green};
+	--color-bg-heading: #{$theme-color-grey-nickel}
 }
 
+// Dark theme styles
 @media (prefers-color-scheme: dark) {
-  :root {
-    --my-color: white;
-  }
+    :root {
+        --my-color: white;
+    }
 }

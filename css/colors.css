@@ -1,0 +1,30 @@
+:root {
+  --my-color: black;
+  --color-bg-white: white;
+  --color-bg-green: #c0c4bb;
+  --color-bg-blue: #EBE4DE;
+  --color-btn-bg-primary: #828A78;
+  --color-btn-bg-secondary: white;
+  --color-btn-border-primary: #0A210F;
+  --color-btn-border-secondary: #0A210F;
+  --color-btn-text-primary: white;
+  --color-btn-text-secondary: #0A210F;
+  --color-border: #0A210F;
+  --color-heading: #0A210F;
+  --color-text: #333333;
+  --color-text-light: white;
+  --color-text-2: black;
+  --color-header-text: #191919;
+  --color-logo-name: #272727;
+  --color-logo-subtitle: #403A1A;
+  --color-logo-dots: #746B30;
+  --color-logo-vertical-line: #828A78;
+  --color-logo-horizontal-line: #232323;
+  --color-bg-heading: #C1C5BC ;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --my-color: white;
+  }
+}
