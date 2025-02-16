@@ -3044,17 +3044,11 @@ section[b-pbhrtrxgws] {
   font-size: 8px;
 }
 /* /Components/Icons/Arrow.razor.rz.scp.css */
-
 /* /Components/Icons/ArrowCircle.razor.rz.scp.css */
-
 /* /Components/Icons/Burger.razor.rz.scp.css */
-
 /* /Components/Icons/CheckMark.razor.rz.scp.css */
-
 /* /Components/Icons/LogoCircle.razor.rz.scp.css */
-
 /* /Components/NotFoundRedirect.razor.rz.scp.css */
-
 /* /Components/ParagraphHeading.razor.rz.scp.css */
 html[b-45ux0kilbo], body[b-45ux0kilbo] {
   margin: 0;
@@ -6628,6 +6622,7 @@ section .content[b-w8knfunxqj] {
   display: flex;
   flex-direction: row;
   align-items: center;
+  border: 10px solid blue;
 }
 section .content[b-w8knfunxqj]  img {
   flex: 1;
@@ -7267,7 +7262,6 @@ main[b-v8q5m4zhkd] {
   }
 }
 /* /Pages/404.razor.rz.scp.css */
-
 /* /Pages/About.razor.rz.scp.css */
 html[b-9vogku456o], body[b-9vogku456o] {
   margin: 0;
@@ -7545,7 +7539,6 @@ section[b-9vogku456o] {
   padding: 8px 0;
 }
 /* /Pages/ConsultingHome.razor.rz.scp.css */
-
 /* /Pages/ConsultingKids.razor.rz.scp.css */
 html[b-8plbpwg83o], body[b-8plbpwg83o] {
   margin: 0;
@@ -8351,7 +8344,6 @@ table[b-7qkkyquy2c]  svg {
   height: 24px;
 }
 /* /Pages/CoursesGeneral.razor.rz.scp.css */
-
 /* /Pages/CoursesSingles.razor.rz.scp.css */
 .mb-4[b-g43ah46r3u] {
   margin-bottom: 48px;
