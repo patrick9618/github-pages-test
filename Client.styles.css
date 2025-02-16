@@ -4344,7 +4344,22 @@ section[b-vi5chk4t5o] {
   position: absolute;
   right: 0px;
   top: 0px;
-  height: 100%;
+}
+@media (max-width: 992px) {
+  .content .icon[b-vi5chk4t5o] {
+    right: -120px;
+  }
+  .content .icon svg[b-vi5chk4t5o] {
+    height: 380px;
+  }
+}
+@media (max-width: 576px) {
+  .content .icon[b-vi5chk4t5o] {
+    right: -230px;
+  }
+  .content .icon svg[b-vi5chk4t5o] {
+    height: 330px;
+  }
 }
 /* /Components/SectionFaq.razor.rz.scp.css */
 html[b-qokq954zpi], body[b-qokq954zpi] {
@@ -6613,7 +6628,6 @@ section .content[b-w8knfunxqj] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 10px solid blue;
 }
 section .content[b-w8knfunxqj]  img {
   flex: 1;
@@ -7162,7 +7176,7 @@ section[b-vgv8phzy3o] {
 }
 
 .media-query-indicator[b-vgv8phzy3o] {
-  position: absolute;
+  position: fixed;
   left: 0;
   top: 0;
   background-color: red;
