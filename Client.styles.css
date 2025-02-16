@@ -6613,7 +6613,7 @@ section .content[b-w8knfunxqj] {
   display: flex;
   flex-direction: row;
   align-items: center;
-  border: 10px solid red;
+  border: 10px solid blue;
 }
 section .content[b-w8knfunxqj]  img {
   flex: 1;
