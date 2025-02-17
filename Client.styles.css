@@ -125,6 +125,7 @@ section[b-h0mi047f20] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-h0mi047f20] {
@@ -375,6 +376,7 @@ section[b-na9ae7levo] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-na9ae7levo] {
@@ -619,6 +621,7 @@ section[b-eumi5c7sh8] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-eumi5c7sh8] {
@@ -873,6 +876,7 @@ section[b-jgea99vfwk] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-jgea99vfwk] {
@@ -1141,6 +1145,7 @@ section[b-18x28g405t] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-18x28g405t] {
@@ -1428,6 +1433,7 @@ section[b-30ttqep6v6] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-30ttqep6v6] {
@@ -1689,6 +1695,7 @@ section[b-9vn52ls4jh] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-9vn52ls4jh] {
@@ -1958,6 +1965,7 @@ section[b-81b4lhg9cb] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-81b4lhg9cb] {
@@ -2238,6 +2246,7 @@ section[b-yap01sehcq] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-yap01sehcq] {
@@ -2640,6 +2649,7 @@ section[b-swe53bt4fi] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-swe53bt4fi] {
@@ -2924,6 +2934,7 @@ section[b-pbhrtrxgws] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-pbhrtrxgws] {
@@ -3176,6 +3187,7 @@ section[b-45ux0kilbo] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-45ux0kilbo] {
@@ -3414,6 +3426,7 @@ section[b-fva7bebekk] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-fva7bebekk] {
@@ -3679,6 +3692,7 @@ section[b-ey1qm1aszs] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-ey1qm1aszs] {
@@ -3942,6 +3956,7 @@ section[b-nax67y8567] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-nax67y8567] {
@@ -4188,6 +4203,7 @@ section[b-vi5chk4t5o] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-vi5chk4t5o] {
@@ -4482,6 +4498,7 @@ section[b-qokq954zpi] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-qokq954zpi] {
@@ -4597,9 +4614,13 @@ section[b-qokq954zpi] {
 .content[b-qokq954zpi] {
   margin: 136px 0;
   display: flex;
-  flex-direction: row;
   align-items: flex-start;
   gap: 48px;
+}
+@media (max-width: 992px) {
+  .content[b-qokq954zpi] {
+    flex-direction: column;
+  }
 }
 
 .faq[b-qokq954zpi] {
@@ -4782,6 +4803,7 @@ section[b-vl9n7qli3c] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-vl9n7qli3c] {
@@ -5020,6 +5042,7 @@ section[b-0wf4gooa0q] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-0wf4gooa0q] {
@@ -5303,6 +5326,7 @@ section[b-xeuvn4oym6] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-xeuvn4oym6] {
@@ -5554,6 +5578,7 @@ section[b-r5kpyja18n] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-r5kpyja18n] {
@@ -5792,6 +5817,7 @@ section[b-c7mci99bnf] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-c7mci99bnf] {
@@ -6030,6 +6056,7 @@ section[b-i9ammfx4ek] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-i9ammfx4ek] {
@@ -6268,6 +6295,7 @@ section[b-4493dflndu] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-4493dflndu] {
@@ -6506,6 +6534,7 @@ section[b-w8knfunxqj] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-w8knfunxqj] {
@@ -6776,6 +6805,7 @@ section[b-o5nr28urey] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-o5nr28urey] {
@@ -7057,6 +7087,7 @@ section[b-vgv8phzy3o] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-vgv8phzy3o] {
@@ -7388,6 +7419,7 @@ section[b-9vogku456o] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-9vogku456o] {
@@ -7665,6 +7697,7 @@ section[b-8plbpwg83o] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-8plbpwg83o] {
@@ -7903,6 +7936,7 @@ section[b-fkpof7s631] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-fkpof7s631] {
@@ -8141,6 +8175,7 @@ section[b-7qkkyquy2c] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-7qkkyquy2c] {
@@ -8474,6 +8509,7 @@ section[b-fwi06wodke] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-fwi06wodke] {
@@ -8775,6 +8811,7 @@ section[b-qkqvtk7xtj] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-qkqvtk7xtj] {
@@ -9024,6 +9061,7 @@ section[b-zksf96qvl3] {
   margin-left: auto;
   margin-right: auto;
   max-width: 1356px;
+  overflow: hidden;
 }
 @media (max-width: 992px) {
   .inner[b-zksf96qvl3] {
@@ -9137,64 +9175,21 @@ section[b-zksf96qvl3] {
 }
 
 .content[b-zksf96qvl3] {
-  margin: 136px 0;
-  display: grid;
-  place-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
 }
-
-.contact-form[b-zksf96qvl3] {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-  width: 688px;
-  text-align: center;
-}
-
-.form-group[b-zksf96qvl3] {
-  margin-bottom: 16px;
-  position: relative;
-}
-.form-group label[b-zksf96qvl3] {
-  position: absolute;
-  left: 11px;
-  top: 8px;
-}
-
-.form-control[b-zksf96qvl3] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.submit-button[b-zksf96qvl3] {
-  background-color: white;
-  border: none;
-  padding: 16px 24px;
-  border-radius: 25px;
-  cursor: pointer;
+.content h2[b-zksf96qvl3] {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: normal;
   font-weight: 600;
-  color: var(--color-heading);
-  letter-spacing: 0.32px;
+  margin-bottom: 4px;
+  margin-top: 16px;
 }
-
-.submit-button:hover[b-zksf96qvl3] {
-  background-color: #e0e0e0;
-}
-
-[b-zksf96qvl3] input, [b-zksf96qvl3] textarea {
-  width: 100%;
-  padding: 10px;
-}
-[b-zksf96qvl3] textarea {
-  min-height: 160px;
-  max-height: 320px;
-  min-width: 100%;
-  max-width: 100%;
+.content p[b-zksf96qvl3] {
+  margin-bottom: 2px;
 }

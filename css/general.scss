@@ -218,6 +218,7 @@ section {
 
 .inner {
     @include page-inner;
+    overflow: hidden;
 }
 
 .flex-text-image {
