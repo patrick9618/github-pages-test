@@ -7219,6 +7219,29 @@ section[b-vgv8phzy3o] {
     background-color: green;
   }
 }
+
+/* This styles in .page and .main-content are needed so that the page always take at least the full height,
+	if the content is too less a white area is shown with gutters (if enabled) and the footer at the page bottom */
+.page[b-vgv8phzy3o] {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content[b-vgv8phzy3o] {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+}
+.main-content .page-filler[b-vgv8phzy3o] {
+  height: 100%;
+}
+.main-content .page-filler section[b-vgv8phzy3o] {
+  height: 100%;
+}
+.main-content .page-filler section .inner[b-vgv8phzy3o] {
+  height: 100%;
+}
 /* /Layout/MainLayout.razor.rz.scp.css */
 .page[b-v8q5m4zhkd] {
   position: relative;
@@ -8623,66 +8646,23 @@ section[b-fwi06wodke] {
 }
 
 .content[b-fwi06wodke] {
-  margin: 136px 0;
-  display: grid;
-  place-items: center;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
 }
-
-.contact-form[b-fwi06wodke] {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 32px;
-  width: 688px;
-  text-align: center;
-}
-
-.form-group[b-fwi06wodke] {
-  margin-bottom: 16px;
-  position: relative;
-}
-.form-group label[b-fwi06wodke] {
-  position: absolute;
-  left: 11px;
-  top: 8px;
-}
-
-.form-control[b-fwi06wodke] {
-  width: 100%;
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 4px;
-  font-size: 1rem;
-}
-
-.submit-button[b-fwi06wodke] {
-  background-color: white;
-  border: none;
-  padding: 16px 24px;
-  border-radius: 25px;
-  cursor: pointer;
+.content h2[b-fwi06wodke] {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   font-style: normal;
   line-height: normal;
   font-weight: 600;
-  color: var(--color-heading);
-  letter-spacing: 0.32px;
+  margin-bottom: 4px;
+  margin-top: 16px;
 }
-
-.submit-button:hover[b-fwi06wodke] {
-  background-color: #e0e0e0;
-}
-
-[b-fwi06wodke] input, [b-fwi06wodke] textarea {
-  width: 100%;
-  padding: 10px;
-}
-[b-fwi06wodke] textarea {
-  min-height: 160px;
-  max-height: 320px;
-  min-width: 100%;
-  max-width: 100%;
+.content p[b-fwi06wodke] {
+  margin-bottom: 2px;
 }
 /* /Pages/Home.razor.rz.scp.css */
 html[b-qkqvtk7xtj], body[b-qkqvtk7xtj] {
