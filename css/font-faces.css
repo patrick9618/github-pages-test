@@ -32,3 +32,8 @@
   src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
+@font-face {
+  font-family: "Rastanty-Cortez";
+  src: url("../fonts/rastanty-cortez.ttf") format("truetype");
+  font-style: normal;
+}

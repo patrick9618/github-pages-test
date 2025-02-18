@@ -165,6 +165,11 @@ code {
   src: url("../fonts/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
   font-style: italic;
 }
+@font-face {
+  font-family: "Rastanty-Cortez";
+  src: url("../fonts/rastanty-cortez.ttf") format("truetype");
+  font-style: normal;
+}
 html, body {
   margin: 0;
   padding: 0;
@@ -303,67 +308,6 @@ section {
   .inner {
     padding-left: 24px;
     padding-right: 24px;
-  }
-}
-
-.flex-text-image {
-  display: flex;
-  flex-direction: row;
-  gap: 80px;
-  margin: 136px 0;
-}
-.flex-text-image img {
-  width: 45%;
-  object-fit: cover;
-}
-.flex-text-image .text-side {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 32px;
-}
-.flex-text-image .text-side .text-side-content {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  gap: 48px;
-}
-.flex-text-image .text-side p {
-  margin-bottom: 24px;
-}
-.flex-text-image .text-side p:last-of-type {
-  margin-bottom: 0;
-}
-.flex-text-image .image-container {
-  width: 50%;
-  object-fit: cover;
-  border-radius: 4px;
-}
-.flex-text-image .image-container img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-@media (max-width: 992px) {
-  .flex-text-image {
-    margin: 80px 0;
-    flex-direction: column;
-    gap: 48px;
-  }
-  .flex-text-image .image-container {
-    order: -1;
-    width: 100%;
-    overflow: clip;
-  }
-  .flex-text-image .image-container img {
-    width: 100%;
-    height: auto;
-  }
-}
-@media (max-width: 576px) {
-  .flex-text-image {
-    margin: 64px 0;
   }
 }
 
