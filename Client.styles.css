@@ -5164,39 +5164,46 @@ section[b-0wf4gooa0q]  img {
   border-radius: 0;
   display: block;
 }
-section .content[b-0wf4gooa0q] {
+section .image-container[b-0wf4gooa0q] {
+  position: relative;
+  width: 100%;
+}
+section .container[b-0wf4gooa0q] {
   position: absolute;
-  margin-top: 187px;
-  margin-left: 77px;
-  width: 820px;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-section .content[b-0wf4gooa0q]  img {
-  flex: 1;
-  width: 0%;
+  width: 65%;
   height: 100%;
-  border-radius: 0;
-  width: 10px;
+  top: 0;
+  left: 0;
+  padding-top: 10%;
+  padding-left: 12%;
 }
-section .content .left-side[b-0wf4gooa0q] {
-  flex: 1;
-  padding: 0 78px;
+@media (max-width: 992px) {
+  section .container[b-0wf4gooa0q] {
+    padding-top: 6%;
+  }
+}
+@media (max-width: 767px) {
+  section .container[b-0wf4gooa0q] {
+    position: relative;
+    width: 100%;
+    padding: 64px 24px 32px;
+  }
+}
+section .content[b-0wf4gooa0q] {
+  height: 100%;
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  justify-content: flex-start;
+  gap: 40px;
 }
 @media (max-width: 992px) {
   section .content[b-0wf4gooa0q] {
-    flex-direction: column-reverse;
-    gap: 48px;
+    gap: 24px;
   }
-  section .content[b-0wf4gooa0q]  img {
-    width: 100%;
-  }
-  section .content .left-side[b-0wf4gooa0q] {
-    padding-bottom: 64px;
+}
+@media (max-width: 767px) {
+  section .content[b-0wf4gooa0q] {
+    align-items: center;
   }
 }
 /* /Components/SectionHeadingSmall.razor.rz.scp.css */
