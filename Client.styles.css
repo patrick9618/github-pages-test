@@ -4650,6 +4650,7 @@ section[b-qokq954zpi] {
   font-style: normal;
   line-height: normal;
   font-weight: 500;
+  color: var(--color-text);
   text-align: left;
   display: flex;
   justify-content: space-between;
@@ -4661,8 +4662,8 @@ section[b-qokq954zpi] {
   font-style: normal;
   line-height: normal;
   font-weight: 400;
-  text-align: left;
   color: var(--color-text);
+  text-align: left;
 }
 .faq-item .faq-answer p[b-qokq954zpi] {
   margin-bottom: 16px;
