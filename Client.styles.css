@@ -3565,6 +3565,15 @@ table td:first-child[b-fva7bebekk] {
 table td:last-child[b-fva7bebekk] {
   font-feature-settings: "tnum";
 }
+
+h3[b-fva7bebekk] {
+  font-size: 14px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 400;
+}
 /* /Components/SectionBox.razor.rz.scp.css */
 html[b-ey1qm1aszs], body[b-ey1qm1aszs] {
   margin: 0;
@@ -6682,6 +6691,7 @@ section .content .left-side[b-w8knfunxqj] {
     width: 100%;
   }
   section .content .left-side[b-w8knfunxqj] {
+    padding: 0 40px;
     padding-bottom: 64px;
   }
 }
@@ -8060,6 +8070,19 @@ section[b-fkpof7s631] {
 .nowrap[b-fkpof7s631] {
   white-space: nowrap;
 }
+
+@media (max-width: 992px) {
+  .img-49-plant[b-fkpof7s631] {
+    max-height: 400px !important;
+    object-position: 50% 85% !important;
+  }
+}
+@media (max-width: 576px) {
+  .img-49-plant[b-fkpof7s631] {
+    max-height: 300px !important;
+    object-position: 50% 100% !important;
+  }
+}
 /* /Pages/Contact.razor.rz.scp.css */
 html[b-7qkkyquy2c], body[b-7qkkyquy2c] {
   margin: 0;
@@ -8902,6 +8925,35 @@ section[b-qkqvtk7xtj] {
 }
 .section-boxes .cards[b-qkqvtk7xtj]  .button-secondary {
   border: none;
+}
+
+@media (max-width: 992px) {
+  .img-194-main[b-qkqvtk7xtj] {
+    max-height: 670px !important;
+    object-position: 50% 25% !important;
+    object-fit: cover;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-202-couch[b-qkqvtk7xtj] {
+    max-height: 450px !important;
+    object-position: 50% 100% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-174-pillows[b-qkqvtk7xtj] {
+    max-height: 400px !important;
+    object-position: 50% 25% !important;
+  }
+}
+
+@media (max-width: 992px) {
+  .img-197-about[b-qkqvtk7xtj] {
+    max-height: 480px !important;
+    object-position: 50% 10% !important;
+  }
 }
 /* /Pages/Impressum.razor.rz.scp.css */
 html[b-zksf96qvl3], body[b-zksf96qvl3] {
