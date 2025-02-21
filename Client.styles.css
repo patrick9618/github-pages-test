@@ -8328,6 +8328,11 @@ section[b-7qkkyquy2c] {
   display: grid;
   place-items: center;
 }
+@media (max-width: 992px) {
+  .content[b-7qkkyquy2c] {
+    display: block;
+  }
+}
 
 .contact-form[b-7qkkyquy2c] {
   display: flex;
