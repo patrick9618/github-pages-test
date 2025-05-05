@@ -3574,6 +3574,15 @@ h3[b-fva7bebekk] {
   line-height: normal;
   font-weight: 400;
 }
+
+.placeholder[b-fva7bebekk] {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  line-height: normal;
+  font-weight: 500;
+  font-size: 20px;
+}
 /* /Components/SectionBox.razor.rz.scp.css */
 html[b-ey1qm1aszs], body[b-ey1qm1aszs] {
   margin: 0;
